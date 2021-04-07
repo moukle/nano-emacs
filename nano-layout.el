@@ -18,7 +18,8 @@
 
 (setq default-frame-alist
       (append (list
-	       '(font . "Roboto Mono:style=Light:size=14")
+	       ;; '(font . "Fira Code Retina:style=Light:size=22")
+	       ;; '(font . "Roboto Mono:style=Light:size=20")
 	       ;; '(font . "Roboto Mono Emacs Regular:size=14")
 	       '(min-height . 1)  '(height     . 45)
 	       '(min-width  . 1) '(width      . 81)
@@ -39,7 +40,7 @@
 ;; defaults write org.gnu.Emacs AppleFontSmoothing -int 3 (strong)
 
 ;; Fall back font for glyph missing in Roboto
-(defface fallback '((t :family "Fira Code"
+(defface fallback '((t :family "Fira Code Retina"
                        :inherit 'nano-face-faded)) "Fallback")
 (set-display-table-slot standard-display-table 'truncation
                         (make-glyph-code ?… 'fallback))
