@@ -19,7 +19,7 @@
 (setq default-frame-alist
       (append (list
 	       ;; '(font . "Fira Code Retina:style=Light:size=22")
-	       ;; '(font . "Roboto Mono:style=Light:size=20")
+	       '(font . "Roboto Mono:style=Light:size=25")
 	       ;; '(font . "Roboto Mono Emacs Regular:size=14")
 	       '(min-height . 1)  '(height     . 45)
 	       '(min-width  . 1) '(width      . 81)

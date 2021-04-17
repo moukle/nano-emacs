@@ -296,7 +296,7 @@
                                          :underline nil
                                          :box nil
                                          :height 1.0)))
-(add-hook 'mu4e-view-mode-hook #'nano-modeline-mu4e-view-hook)
+;; (add-hook 'mu4e-view-mode-hook #'nano-modeline-mu4e-view-hook)
 
 
 ;; ---------------------------------------------------------------------

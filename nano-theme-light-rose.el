@@ -21,8 +21,8 @@
   ;; Colors from Rose Pine design at github.com/rose-pine/rose-pine-theme
   (setq frame-background-mode    'light)
   (setq nano-color-foreground "#575279") ;; Text
-  (setq nano-color-background "#faf4ed") ;; Base
-  (setq nano-color-highlight  "#fffaf3") ;; Surface
+  (setq nano-color-background "#fffaf3") ;; Surface
+  (setq nano-color-highlight  "#faf4ed") ;; Base
   (setq nano-color-critical   "#b4637a") ;; Love
   (setq nano-color-salient    "#d7827e") ;; Pine
   (setq nano-color-strong     "#56949f") ;; Foam
